@@ -67,32 +67,32 @@ Please do __NOT__ include any of the project data sets provided in the `dogImage
 
 Click on the "Submit Project" button in the classroom and follow the instructions to submit! -->
 
-## Dog Breed Classification
+# Dog Breed Classification
 
-### Overview
+## Overview
 
 In this project, weo build a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, the algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
 
-### Datasets
+## Datasets
 
 We used two datasets in this project : 
 * The [dog dataset](https://s3-us-west-1.amazonaws.com/udacity-aind/dog-project/dogImages.zip).
 * The [human dataset](http://vis-www.cs.umass.edu/lfw/lfw.tgz).
 
-### Key Steps
+## Key Steps
 
-#### Step 1: Detect Humans
+### Step 1: Detect Humans
 
 First, we used OpenCV's implementation of [Haar feature-based cascade classifiers](http://docs.opencv.org/trunk/d7/d8b/tutorial_py_face_detection.html) to detect human faces in images.
 
 OpenCV provides many pre-trained face detectors, stored as XML files on github. We chose the **frontal face** detector to used in this step.
 
-#### Step 2: Detect Dogs
+### Step 2: Detect Dogs
 
-#### Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
+### Step 3: Create a CNN to Classify Dog Breeds (from Scratch)
 
-#### Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
+### Step 4: Create a CNN to Classify Dog Breeds (using Transfer Learning)
 
-#### Step 5: Write the Algorithm
+### Step 5: Write the Algorithm
 
-#### Step 6: Test the Algorithm
+### Step 6: Test the Algorithm
